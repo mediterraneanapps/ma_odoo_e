@@ -20,6 +20,10 @@ This module modifies the web addon to provide Enterprise design and responsivene
     'data': [
         'views/webclient_templates.xml',
     ],
+   "images": [
+        'static/description/panel.png',
+      
+    ],
     'qweb': [
         "static/src/xml/*.xml",
     ],
