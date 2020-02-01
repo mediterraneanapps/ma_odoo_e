@@ -1,0 +1,13 @@
+<odoo>
+    <template id="assets_backend" name="dashboard assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/ma_web_dashboard/static/src/js/dashboard_view.js"/>
+            <script type="text/javascript" src="/ma_web_dashboard/static/src/js/dashboard_renderer.js"/>
+            <script type="text/javascript" src="/ma_web_dashboard/static/src/js/dashboard_model.js"/>
+            <script type="text/javascript" src="/ma_web_dashboard/static/src/js/dashboard_controller.js"/>
+            <link rel="stylesheet" type="text/scss" href="/ma_web_dashboard/static/src/scss/dashboard_view.scss"/>
+        </xpath>
+    </template>
+
+   
+</odoo>
