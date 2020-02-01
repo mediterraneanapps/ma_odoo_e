@@ -21,7 +21,7 @@ def schema_dashboard(arch, **kwargs):
     global _dashboard_validator
 
     if _dashboard_validator is None:
-        with misc.file_open(os.path.join('web_dashboard', 'views', 'dashboard.rng')) as f:
+        with misc.file_open(os.path.join('ma_web_dashboard', 'views', 'dashboard.rng')) as f:
             _dashboard_validator = etree.RelaxNG(etree.parse(f))
 
     if _dashboard_validator.validate(arch):
