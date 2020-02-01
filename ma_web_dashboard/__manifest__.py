@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Base Web Dashboard",
-    'category': '',
+    'category': 'Dashboard',
     'version': '1.0',
     'description':
         """
